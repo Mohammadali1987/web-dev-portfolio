@@ -7,6 +7,7 @@
   font-weight: 400;
   font-style: normal;
   margin: 0 110px;
+  
 }
 
 /* shared styles */
@@ -17,6 +18,9 @@
   border-radius: 5px;
   line-height: 40px;
   padding: 0 20px ;
+}
+.bg-secondary {
+  margin: 0 230px;
 }
 
 /* header styles */
@@ -76,4 +80,61 @@ nav ul li a {
 }
 .banner-description {
   margin-bottom: 30px;
+}
+
+/* About styles */
+
+.about {
+  text-align: center;
+  max-width: 1140px;
+  padding: 50px 100px;
+  background-color: #FFF8F3;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-mtitle {
+  font-size: 20px;
+}
+.about-item-desc {
+  font-size: 20px;
+  font-weight: bold;
+}
+.about-color {
+  background-color: #fff;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  width: 1140px ;
+  margin: 0 auto;
+  
+}
+.fig{
+  width: 270px;
+  height: 370px;
+  box-shadow: 0px 6px 50px 0px rgba(0,0,0,.06);
+  padding: 15px;
+  margin-bottom: 50px;
+}
+.resume-title, .resume-des{
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.resum-head {
+  text-align: center;
+  font-size: 45px;
+}
+.resum-container {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  gap: 50px;
 }
